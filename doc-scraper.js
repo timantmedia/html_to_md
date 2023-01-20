@@ -14,9 +14,9 @@ const generator = SitemapGenerator(baseUrl, {
 const csvWriter = createCsvWriter({
     path: process.env.CSV_FILE,
     header: [
-        {id: 'title', title: 'TITLE'},
-        {id: 'desc', title: 'DECRIPTION'},
-        {id: 'pageurl', title: 'PAGEURL'}
+        {id: 'title', title: 'Title'},
+        {id: 'desc', title: 'Description'},
+        {id: 'pageurl', title: 'PageUrl'}
     ]
 });
 
